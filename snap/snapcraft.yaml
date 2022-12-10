@@ -1,4 +1,4 @@
-name: DUTclock
+name: dutclock
 summary: Shows the time until the beginning / end of the lesson 
 description: |
       Work only for DUT
@@ -9,7 +9,7 @@ base: core20
 confinement: devmode
 
 parts:
-  DUTclock:
+  dutclock:
     plugin: go
     source-type: git
     source: https://github.com/FoPPi/DUTclock
