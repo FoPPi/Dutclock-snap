@@ -2,9 +2,12 @@ name: dutclock
 summary: Shows the time until the beginning / end of the lesson 
 description: |
       Work only for DUT
+adopt-info: dutclock
 version: git
 grade: stable
 base: core20
+architectures:
+  - build-on: [arm64, armhf, amd64]
 
 confinement: devmode
 
